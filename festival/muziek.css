@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslateblue;
+}
+h1{
+    color: orange;
+    font-size: 70px;
+}
+
+tr,td,th{
+    border: white 2px solid;
+    border-collapse: collapse;
+    color:white;
+
+}
+
+
+.button{
+    border: grey 4px solid;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 4px;
+    margin: 8px;
+}
+.boven:link{
+    color: grey;
+}
+.pukkelpop{
+    border:goldenrod 2px solid;
+    background-color: lightblue;
+    margin: 39px 0 32px;
+    color: white;
+    padding: 0 0 24px;
+
+}
+
+#footer a{ color:white;}
+
+a:hover {color: orange;}
+a:link {color:white;}

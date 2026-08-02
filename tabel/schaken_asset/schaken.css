@@ -1,0 +1,45 @@
+body {
+    background-image: url("assets/hout.jpg");
+}
+
+table{
+    border: #740001 4px solid;
+    border-collapse: collapse;
+    height: 480px;
+}
+td{
+    border: 1px solid darkred;
+    padding: 1rem;
+        width: 60px;                 /* 480/8 = 60px per cel */
+        height: 60px;
+        text-align: center;           /* horizontaal centreren van stukken */
+         vertical-align: middle;       /* verticaal centreren van stukken */
+
+}
+.wit{
+    background-image: url("assets/witte-marmer.jpg");
+}
+
+.zwart{
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+
+
+
+td img {
+    max-width: 90%;              /* schaakstukken passen in cel */
+    max-height: 90%;
+}
+
+.container {
+    display: flex;
+    gap: 100px;          /* ruimte tussen bord en info */
+}
+
+.info-panel {
+    width: 290px;
+    height: 480px;
+    padding: 10px;
+    border: 5px solid #740001;
+    background-image: url("./assets/witte-marmer.jpg");
+}

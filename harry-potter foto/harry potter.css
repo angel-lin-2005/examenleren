@@ -1,0 +1,28 @@
+body{
+    font-family: Roboto Slab, serif;
+    background-color: #F1EBD9;
+    padding: 2px 150px;
+}
+
+.donker-geel{
+    background-color: #DCC066;
+    margin: 24px auto;
+    padding: 32px;
+    border: #740001 solid 3px;
+    max-width: 1200px;
+}
+
+h1,h2{
+    color: #740001;
+}
+
+img{
+    width: 200px;
+}
+
+iframe{
+    width: 1155px;
+    height: 410px;
+    border-bottom: white solid 2px;
+    border-right: white solid 2px;
+}
